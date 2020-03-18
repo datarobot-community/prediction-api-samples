@@ -1,27 +1,31 @@
-# PROJECT TITLE
+# DataRobot Prediction API Samples
 
-TODO: Add a short description of the project.
-It should include the following:
-- What this repository is
-- Who is it for
-- What are the dependencies 
+Samples of DataRobot prediction API calls in various programming languages, to help you get started using our APIs.
+
+To run you will require access to DataRobot application.
+
+## Setup
+
+Before running any scripts you **MUST** create and populate your environment variable. Each language specific script will look for it in `common/.env`.
+
+1. Create a file `common/.env`
+2. Populate the file with the following:
+
+```
+PREDICTION_SERVER=YOUR_PREDICTION_SERVER_ENDPOINT
+DEPLOYMENT_ID=YOUR_DEPLOYMENT_ID
+DATAROBOT_KEY=YOUR_DATAROBOT_KEY
+API_KEY=YOUR_API_KEY
+```
+
+You can find these in deployments / integrations tab in your DataRobot application.
 
 ## Usage
 
-TODO: Specify how to use this project
-This can include running the scripts, or where to find API docs if it's a library, command line tool, or similar.
+This repository contains language-specific examples in `python`, `node`, `ruby`, `go`, and `java` directories. 
+Common data is in `common` directory.
 
-## Repository Contents
-
-TODO: Specify what this repository contains, for example if it contains multiple self contained sub-projects, like with Notebooks scripts that can be used independently.
-
-In some cases you can skip this section.
-
-## Setup/Installation
-
-TODO: Specify what's required to set this project up for usage
-
-In some cases you can skip this section.
+Follow the steps in **Setup**, and in each language specific directory's README file.
 
 ## Development and Contributing
 

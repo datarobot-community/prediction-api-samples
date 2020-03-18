@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'com.datarobot'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.11
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'io.github.cdimascio:java-dotenv:5.1.4'
+}
