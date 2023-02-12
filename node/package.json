@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "got": "^11.1.0"
+    "got": "^12.5.3"
   }
 }
